@@ -1,23 +1,26 @@
 {
-  "name": "golek/process-manager",
-  "description": "PHP Process manager",
-  "keywords": ["process", "manager"],
+  "name": "golek/php-mmock",
+  "description": "PHP wrapper to use https://github.com/jmartin82/mmock",
+  "keywords": ["mock", "tests", "wrapper"],
   "license": "MIT",
-  "type": "project",
+  "type": "library",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "require": {
-    "php": ">=5.5.9"
+    "php": ">=5.5.9",
+    "golek/process-manager": "dev-master"
   },
   "require-dev": {
     "phpunit/phpunit": "~5.7"
   },
   "autoload": {
     "psr-4": {
-      "Golek\\": "src/Golek/"
+      "PhpMmock\\": "src/PhpMmock/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Golek\\Test\\": "tests/Golek/"
+      "PhpMmock\\Test\\": "tests/PhpMmock/"
     }
   }
 }
