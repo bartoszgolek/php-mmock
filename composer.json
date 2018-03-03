@@ -1,0 +1,23 @@
+{
+  "name": "golek/process-manager",
+  "description": "PHP Process manager",
+  "keywords": ["process", "manager"],
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Golek\\": "src/Golek/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Golek\\Test\\": "tests/Golek/"
+    }
+  }
+}
